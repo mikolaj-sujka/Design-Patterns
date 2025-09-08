@@ -8,4 +8,13 @@
     <Nullable>enable</Nullable>
   </PropertyGroup>
 
+  <ItemGroup>
+    <ProjectReference Include="..\Command-Pattern\Command-Pattern.csproj" />
+    <ProjectReference Include="..\Flyweight-Pattern\Flyweight-Pattern.csproj" />
+    <ProjectReference Include="..\Memento-Pattern\Memento-Pattern.csproj" />
+    <ProjectReference Include="..\Observer-Pattern\Observer-Pattern.csproj" />
+    <ProjectReference Include="..\Proxy-Pattern\Proxy-Pattern.csproj" />
+    <ProjectReference Include="..\Visitor-Pattern\Visitor-Pattern.csproj" />
+  </ItemGroup>
+
 </Project>

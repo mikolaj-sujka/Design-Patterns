@@ -1,9 +1,21 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
-VisualStudioVersion = 17.14.36327.8 d17.14
+VisualStudioVersion = 17.14.36327.8
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Design-Patterns", "Design-Patterns.csproj", "{C02127DA-3773-4611-AE60-84E3A44F0BC4}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Observer-Pattern", "..\Observer-Pattern\Observer-Pattern.csproj", "{8BA189C6-84C2-4D88-9D6F-3119FC1B9379}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Command-Pattern", "..\Command-Pattern\Command-Pattern.csproj", "{60651899-B985-490F-955B-738A3142BDA7}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Proxy-Pattern", "..\Proxy-Pattern\Proxy-Pattern.csproj", "{9EE524A6-3549-4B93-B964-811182F79BF4}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Flyweight-Pattern", "..\Flyweight-Pattern\Flyweight-Pattern.csproj", "{A78D32F5-D727-4FF6-88CF-EF4B88F4A35D}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Memento-Pattern", "..\Memento-Pattern\Memento-Pattern.csproj", "{45DEF54C-AB8E-4CCC-99B2-FCCF2C15F64D}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Visitor-Pattern", "..\Visitor-Pattern\Visitor-Pattern.csproj", "{CF4F424B-C3FD-4EE7-BBB5-C37648B181BE}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -15,6 +27,30 @@ Global
 		{C02127DA-3773-4611-AE60-84E3A44F0BC4}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{C02127DA-3773-4611-AE60-84E3A44F0BC4}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{C02127DA-3773-4611-AE60-84E3A44F0BC4}.Release|Any CPU.Build.0 = Release|Any CPU
+		{8BA189C6-84C2-4D88-9D6F-3119FC1B9379}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{8BA189C6-84C2-4D88-9D6F-3119FC1B9379}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{8BA189C6-84C2-4D88-9D6F-3119FC1B9379}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{8BA189C6-84C2-4D88-9D6F-3119FC1B9379}.Release|Any CPU.Build.0 = Release|Any CPU
+		{60651899-B985-490F-955B-738A3142BDA7}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{60651899-B985-490F-955B-738A3142BDA7}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{60651899-B985-490F-955B-738A3142BDA7}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{60651899-B985-490F-955B-738A3142BDA7}.Release|Any CPU.Build.0 = Release|Any CPU
+		{9EE524A6-3549-4B93-B964-811182F79BF4}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{9EE524A6-3549-4B93-B964-811182F79BF4}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{9EE524A6-3549-4B93-B964-811182F79BF4}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{9EE524A6-3549-4B93-B964-811182F79BF4}.Release|Any CPU.Build.0 = Release|Any CPU
+		{A78D32F5-D727-4FF6-88CF-EF4B88F4A35D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A78D32F5-D727-4FF6-88CF-EF4B88F4A35D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A78D32F5-D727-4FF6-88CF-EF4B88F4A35D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A78D32F5-D727-4FF6-88CF-EF4B88F4A35D}.Release|Any CPU.Build.0 = Release|Any CPU
+		{45DEF54C-AB8E-4CCC-99B2-FCCF2C15F64D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{45DEF54C-AB8E-4CCC-99B2-FCCF2C15F64D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{45DEF54C-AB8E-4CCC-99B2-FCCF2C15F64D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{45DEF54C-AB8E-4CCC-99B2-FCCF2C15F64D}.Release|Any CPU.Build.0 = Release|Any CPU
+		{CF4F424B-C3FD-4EE7-BBB5-C37648B181BE}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{CF4F424B-C3FD-4EE7-BBB5-C37648B181BE}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{CF4F424B-C3FD-4EE7-BBB5-C37648B181BE}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{CF4F424B-C3FD-4EE7-BBB5-C37648B181BE}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
